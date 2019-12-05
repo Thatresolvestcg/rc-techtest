@@ -4,7 +4,11 @@ import '../styles/App.css';
 function App() {
   return (
     <div className="App">
-      hello mate
+      <h1>Where are you going?</h1>
+      <p>Pickup Location</p>
+      <input type='text' placeholder='City, Airport, Region, District' className='searchBox'>
+      </input>
+      <button type='button'>Search</button>
     </div>
   );
 }
