@@ -1,4 +1,46 @@
+.totalBox {
+background-color: #E36724;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 3%;
+border-radius: 5px;
+}
+
 .searchBox {
-  background-color: #f0ffee;
+  background-color: #F5E4DB;
+  color: #3F788F;
   padding: 10px;
+  border: black;
+  margin: 3px;
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+}
+
+.searchButton {
+  padding: 10px;
+  margin: 1px;
+  border-radius: 6px;
+  color: #F5E4DB;
+  background-color: #3F788F;
+}
+
+button:hover {
+display: flex;
+color: #E36724;
+}
+
+button:active, :focus{
+  outline: none;
+}
+
+.pickUp {
+ margin: 5px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
 }

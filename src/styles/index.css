@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  margin: 5%;
   font-family: monospace;
-  background-color: #faf3f3;
+  background-color: #f9ffff;
+  width: 80%;
+  color: 333333;
 }
